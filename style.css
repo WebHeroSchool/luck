@@ -1,0 +1,131 @@
+*{
+    font-family: 'GothamProRegular';
+    font-style: normal;
+    font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family: 'GothamProRegular';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1030px;
+    margin: 0 auto; 
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 55px;
+}
+
+.logo__img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.menu__left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__link {
+    font-family: 'GothamProBold';
+    font-size: 12px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.menu__link:last-child {
+    margin-right: 0;
+}
+
+.menu__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right__item {
+    display: flex;
+}
+
+.header__search {
+    display: block;
+}
+
+.search__form {
+    position: relative;
+    margin-top: 7px;
+    border-bottom: 1px solid #000;
+}
+ input {
+     border: none;
+     outline: none;
+ }
+
+.search__text {
+    width: 170px;
+    height: 19px;
+    border: none;
+}
+
+.right__button {
+    border: none;
+    background: url(img/search.svg);
+    height: 19px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*.la-search {
+    font-weight: 900;
+}
+
+.la-search {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+} */
+
+.right__link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right__sign {
+    font-family: 'GothamProBold';
+    font-size: 12px;
+    line-height: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 230px;
+    }
+
+.right__cart {
+    font-family: 'GothamProBold';
+    font-size: 12px;
+    line-height: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 40px;
+}
