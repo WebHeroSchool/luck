@@ -12,15 +12,19 @@ body{
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px 100px 100px;
 }
 
 /*.container {
+    display: flex;
     max-width: 1030px;
     margin: 0 auto; 
 }
+*/
 
-.header__top {
+/*.header__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +47,7 @@ body{
 .menu__left {
     display: flex;
     justify-content: space-between;
-    width: 334px;
+    width: 314px;
 }
 
 .menu__link {
@@ -61,8 +65,8 @@ body{
 
 .menu__right {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     width: 334px;
 }
 
@@ -136,6 +140,31 @@ body{
     color: #000000;
     text-decoration: none;
     margin-left: 40px;
+}
+
+.title__link {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.boy__img {
+    background-size: contain;
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+
+.title__footwear {
+    font-family: 'GothamProBold';
+    font-size: 30px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    width: 195px;
+    padding: 90px 0 0 60px;
+    margin-bottom: 15px;
+}
 }
 
 /*.right__img {
